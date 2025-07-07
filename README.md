@@ -29,20 +29,25 @@ This project is a comprehensive end-to-end pipeline for object-centric 3D view s
 
 ### Install Dependencies
 
-  #### Ensure you have Python 3.10+ and the following packages:
-    ultralytics
-    segment-anything
-    jupyter_bbox_widget
-    roboflow
-    dataclasses-json
-    supervision==0.23.0
-    basicsr
-    facexlib
-    gfpgan  
-    torch
-    torchvision==0.12.0
-    diffusers
-    huggingface_hub
+  #### Ensure you have Python 3.10+ and the packages
+### Libraries
+  ultralytics (YOLO for object detection)
+  segment-anything (SAM for segmentation)
+  jupyter_bbox_widget
+  roboflow
+  dataclasses-json
+  supervision
+  basicsr
+  facexlib
+  gfpgan
+  torch (PyTorch)
+  torchvision
+  diffusers
+  huggingface_hub
+  opencv-python (cv2)
+  numpy
+  Pillow (PIL)
+  einops
 
 ## Usage
 ### Configure Paths
