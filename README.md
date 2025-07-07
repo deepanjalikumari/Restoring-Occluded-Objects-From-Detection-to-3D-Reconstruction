@@ -52,6 +52,9 @@ This project is a comprehensive end-to-end pipeline for object-centric 3D view s
 Output
   The final output includes high-quality, inpainted, and super-resolved object images, as well as synthesized 3D views.
 
+### Example
+
+
 ##### Ensure GPU support for efficient processing, especially for deep learning models.
 
 
