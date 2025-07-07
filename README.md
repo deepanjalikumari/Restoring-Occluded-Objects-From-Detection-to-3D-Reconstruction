@@ -3,6 +3,9 @@
 This project is a comprehensive end-to-end pipeline for object-centric 3D view synthesis. It leverages state-of-the-art deep learning models for object detection, segmentation, inpainting, super-resolution, and 3D view generation. The pipeline is designed to process images, identify and extract objects, enhance their quality, and generate novel 3D perspectives using advanced diffusion models.
 
 ## Pipeline Stages
+  ### Datasets Procesiong
+    Download the dataset using the link: gist-ailab, “GitHub - gist-ailab/uoais: Codes of paper ‘Unseen Object Amodal Instance Segmentation via Hierarchical Occlusion Modeling’, ICRA 2022,” GitHub, 2022. http://github.com/gist-ailab/uoais(accessed Apr. 19,2025).
+
   ### Object Detection
       Utilizes a pre-trained YOLO model to detect and localize objects within an image.
       Detected objects are saved with bounding boxes and cropped for further processing.
@@ -50,4 +53,5 @@ Output
   The final output includes high-quality, inpainted, and super-resolved object images, as well as synthesized 3D views.
 
 ##### Ensure GPU support for efficient processing, especially for deep learning models.
+
 
