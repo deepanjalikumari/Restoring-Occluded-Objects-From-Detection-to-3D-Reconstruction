@@ -59,7 +59,6 @@ Output
 
 ### Example
 
-
-##### Ensure GPU support for efficient processing, especially for deep learning models.
 ![Image](https://github.com/user-attachments/assets/57d320f6-99e9-44fe-b1c1-fac0025da64c)
 
+##### Ensure GPU support for efficient processing, especially for deep learning models.
